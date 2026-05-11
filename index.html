@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Git Team Project — Dev Blog</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: monospace; background: #f5f5f0; color: #222; }
+
+    header {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 24px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 { font-size: 22px; letter-spacing: 1px; }
+    nav a { color: #ccc; text-decoration: none; margin-left: 20px; font-size: 14px; }
+    nav a:hover { color: #fff; }
+
+    .hero {
+      background: #222;
+      color: #f5f5f0;
+      padding: 60px 40px;
+      text-align: center;
+    }
+    /* ── TASK 1: Each trainee changes this tagline ── */
+    .hero h2 { font-size: 28px; margin-bottom: 12px; }
+    .hero p  { font-size: 15px; color: #aaa; }
+
+    .team-section {
+      padding: 40px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .team-section h3 { font-size: 18px; margin-bottom: 24px; border-bottom: 2px solid #1a1a1a; padding-bottom: 8px; }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 16px;
+    }
+    .member-card {
+      background: #fff;
+      border: 2px solid #1a1a1a;
+      padding: 16px;
+      text-align: center;
+    }
+    .member-card .avatar { font-size: 36px; margin-bottom: 8px; }
+    .member-card .name   { font-weight: bold; font-size: 14px; }
+    .member-card .role   { font-size: 12px; color: #666; margin-top: 4px; }
+
+
+
+    .posts-section {
+      background: #fff;
+      padding: 40px;
+      border-top: 2px solid #1a1a1a;
+    }
+    .posts-section h3 { font-size: 18px; margin-bottom: 24px; max-width: 900px; margin-left: auto; margin-right: auto; }
+    .post-list { max-width: 900px; margin: 0 auto; }
+
+    .post-item {
+      border-left: 4px solid #1a1a1a;
+      padding: 12px 16px;
+      margin-bottom: 16px;
+    }
+    .post-item h4 { font-size: 15px; }
+    .post-item p  { font-size: 13px; color: #555; margin-top: 4px; }
+    .post-item .meta { font-size: 11px; color: #999; margin-top: 6px; }
+
+
+
+    footer {
+      background: #1a1a1a;
+      color: #666;
+      text-align: center;
+      padding: 20px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>&#123; dev.blog &#125;</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Team</a>
+      <a href="#">Posts</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to our Dev Blog</h2>
+    <p>A place where our team shares what we learn.</p>
+  </section>
+
+  <section class="team-section">
+    <h3>The Team</h3>
+    <div class="team-grid">
+
+      <div class="member-card">
+        <div class="avatar">&#128187;</div>
+        <div class="name">Trainee Name</div>
+        <div class="favourite-color">Black</div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+
+  <footer>
+    &copy; 2025 dev.blog &mdash; built by the team
+  </footer>
+
+</body>
+</html>
